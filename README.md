@@ -2,7 +2,7 @@
 **Materia:** Componentes de Lógica de Negocio  
 **Institución:** FIME — UANL  
 **Profesor:** Miguel Ángel Gómez Marroquín  
-**Equipo:** 6
+
 | Integrante | Matrícula |
 | :--- | :--- |
 | Ivan Francisco Padrón Macías | 2150830 |
