@@ -9,6 +9,23 @@
 | María Ximena Rodarte Cuevas | 2154111 |
 | Ángel Haziel Bernal Garza | 2156444 |
 
+# Hotel Costa Azul — Sistema de Gestión Hotelera (PMS)
+
+**Materia:** Componentes de Lógica de Negocio  
+**Institución:** FIME — UANL  
+**Profesor:** Miguel Ángel Gómez Marroquín
+
+## Integrantes
+
+| Integrante | Matrícula |
+|---|---:|
+| Iván Francisco Padrón Macías | 2150830 |
+| María Ximena Rodarte Cuevas | 2154111 |
+| Ángel Haziel Bernal Garza | 2156444 |
+
+## Estructura del proyecto
+
+```text
 Equipo-9/
 ├── .gitignore
 ├── main.py
@@ -58,35 +75,31 @@ Equipo-9/
 └── tests/
     ├── __init__.py
     ├── test_aplicacion.py
-    ├── test_arquitectura.py
-    └── test_dominio.py
+    ├── prueba_arquitectura.py
+    ├── test_dominio.py
+    ├── test.docx
+    ├── test.pdf
+    └── escenarios/
+        ├── 1.1
+        └── 1.2
+```
 
-Descripción de las carpetas y archivos
+## Descripción de carpetas y archivos
 
-diagramas/: contiene los diagramas del dominio basados en DDD y los diagramas de secuencia.
-
-docs/: reúne la documentación del proyecto.
-
-adr/: decisiones relacionadas con la arquitectura.
-
-bitacora_ia/: registro del uso de herramientas de inteligencia artificial.
-
-informe/: informe de arquitectura del sistema.
-
-trazabilidad/: documentación de la relación entre los requisitos y las decisiones del proyecto.
-
-src/costa_azul/: contiene el código fuente del sistema.
-
-aplicacion/: coordina los casos de uso y los servicios de aplicación.
-
-dominio/: contiene las entidades, los objetos de valor, los eventos y las reglas del negocio.
-
-infraestructura/: incluye los componentes técnicos relacionados con la persistencia y otros servicios.
-
-composicion.py: configura y conecta los componentes del sistema.
-
-tests/: contiene las pruebas automatizadas de aplicación, dominio y arquitectura.
-
-main.py: archivo principal para ejecutar la demostración del sistema.
-
-.gitignore: indica qué archivos y carpetas debe ignorar Git.
+| Carpeta o archivo | Descripción |
+|---|---|
+| `diagramas/` | Contiene los diagramas de dominio y de secuencia del sistema. |
+| `docs/` | Reúne la documentación y las evidencias del proyecto. |
+| `docs/adr/` | Contiene las decisiones de arquitectura. |
+| `docs/bitacora_ia/` | Incluye el registro del uso de inteligencia artificial. |
+| `docs/informe/` | Contiene el informe de arquitectura. |
+| `docs/trazabilidad/` | Documenta la relación entre los requisitos y el desarrollo. |
+| `src/costa_azul/` | Contiene el código fuente del sistema. |
+| `src/costa_azul/aplicacion/` | Coordina los casos de uso. |
+| `src/costa_azul/dominio/` | Contiene las entidades y las reglas del negocio. |
+| `src/costa_azul/infraestructura/` | Incluye la persistencia y los servicios técnicos. |
+| `tests/` | Reúne las pruebas automatizadas y su documentación. |
+| `tests/test.docx` y `tests/test.pdf` | Documentos de las pruebas del proyecto. |
+| `tests/escenarios/` | Contiene las capturas de los escenarios de prueba. |
+| `main.py` | Archivo principal para ejecutar la demostración del sistema. |
+| `.gitignore` | Define los archivos que Git debe ignorar. |
