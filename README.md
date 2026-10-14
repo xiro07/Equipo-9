@@ -9,7 +9,7 @@
 | María Ximena Rodarte Cuevas | 2154111 |
 | Ángel Haziel Bernal Garza | 2156444 |
 
-```text
+Equipo-9/
 ├── .gitignore
 ├── main.py
 ├── diagramas/
@@ -60,3 +60,33 @@
     ├── test_aplicacion.py
     ├── test_arquitectura.py
     └── test_dominio.py
+
+Descripción de las carpetas y archivos
+
+diagramas/: contiene los diagramas del dominio basados en DDD y los diagramas de secuencia.
+
+docs/: reúne la documentación del proyecto.
+
+adr/: decisiones relacionadas con la arquitectura.
+
+bitacora_ia/: registro del uso de herramientas de inteligencia artificial.
+
+informe/: informe de arquitectura del sistema.
+
+trazabilidad/: documentación de la relación entre los requisitos y las decisiones del proyecto.
+
+src/costa_azul/: contiene el código fuente del sistema.
+
+aplicacion/: coordina los casos de uso y los servicios de aplicación.
+
+dominio/: contiene las entidades, los objetos de valor, los eventos y las reglas del negocio.
+
+infraestructura/: incluye los componentes técnicos relacionados con la persistencia y otros servicios.
+
+composicion.py: configura y conecta los componentes del sistema.
+
+tests/: contiene las pruebas automatizadas de aplicación, dominio y arquitectura.
+
+main.py: archivo principal para ejecutar la demostración del sistema.
+
+.gitignore: indica qué archivos y carpetas debe ignorar Git.
